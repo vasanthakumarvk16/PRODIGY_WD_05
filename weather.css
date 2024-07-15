@@ -1,0 +1,27 @@
+.c1{
+    outline-color: black;
+    outline-style: double;
+    width: 50%; /* Set the width of the div */
+      text-align: center; /* Center the text inside the div */
+      padding: 20px; /* Add some padding */
+      color: aliceblue;
+      position: absolute; /* Position absolute relative to the nearest positioned ancestor */
+      top: 50%; /* Move down 50% from the top */
+      left: 50%; /* Move right 50% from the left */
+      transform: translate(-50%, -50%); /* Offset the div to truly center it */
+      backdrop-filter: blur(20px);
+    
+ }
+ body{
+    background-image: url("https://i.pinimg.com/originals/9e/0b/e9/9e0be9abf2f2dfe0399f85cdc32681d2.jpg");
+ }
+ button{
+    color: ghostwhite;
+    border-radius: 15px;
+    color: black;
+ }
+ input{
+    padding: 3px 3px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+ }
